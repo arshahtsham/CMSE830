@@ -20,5 +20,3 @@ filtered_df = df[(df['GICS Sector'] == sector) & (df['GICS Sub-Industry'] == ind
 # Display the filtered data
 st.write(f"Showing data for {sector} - {industry}")
 st.dataframe(filtered_df)
-
-# Additional features can be added as needed
