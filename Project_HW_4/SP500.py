@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import lxml
 
 # Load the S&P 500 company data 
 url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
