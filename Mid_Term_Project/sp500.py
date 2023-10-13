@@ -69,4 +69,3 @@ st.markdown("""
 - Analyze the stock's performance during the selected period.
 """)
 
-
