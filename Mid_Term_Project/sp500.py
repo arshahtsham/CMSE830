@@ -72,9 +72,5 @@ st.markdown("""
 # Deployable from GitHub
 st.markdown("### Deployment")
 st.markdown("This app is deployable from GitHub.")
-st.markdown("GitHub Repository: [Your GitHub Repository Link](https://github.com/yourusername/your-repo)")
+st.markdown("GitHub Repository: [Your GitHub Repository Link](https://github.com/arshahtsham/CMSE830/blob/main/Mid_Term_Project/sp500.py)")
 
-# Share the Streamlit link
-st.markdown("### Streamlit Link")
-st.markdown("You can access this app using the following Streamlit Share link:")
-st.markdown("Streamlit Share Link: [Your Streamlit Share Link](https://share.streamlit.io/yourusername/your-repo/app.py)")
