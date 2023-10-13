@@ -69,8 +69,4 @@ st.markdown("""
 - Analyze the stock's performance during the selected period.
 """)
 
-# Deployable from GitHub
-st.markdown("### Deployment")
-st.markdown("This app is deployable from GitHub.")
-st.markdown("GitHub Repository: [Your GitHub Repository Link](https://github.com/arshahtsham/CMSE830/blob/main/Mid_Term_Project/sp500.py)")
 
