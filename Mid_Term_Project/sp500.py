@@ -18,11 +18,13 @@ new_width = 300
 new_height = 200
 resized_image = image.resize((new_width, new_height))
 
-# Save the resized image
-resized_image.save("resized_sp.jpg")
+col3.image(resized_image,caption='sp500')
 
-# Display the resized image using st.image
-st.image("resized_sp.jpg", use_column_width=True)
+# # Save the resized image
+# resized_image.save("resized_sp.jpg")
+
+# # Display the resized image using st.image
+# st.image("resized_sp.jpg", use_column_width=True)
 
 st.title('Understanding the S&P 500')
 
