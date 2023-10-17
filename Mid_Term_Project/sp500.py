@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 st.title('S&P 500 Stock Price Analysis - User Guide (by Arsh Ahtsham)')
 
-st.image("sp.jpg", use_column_width=True)
+# st.image("sp.jpg", use_column_width=True)
 
 st.title('Understanding the S&P 500')
 
