@@ -10,21 +10,7 @@ from PIL import Image
 
 st.title('S&P 500 Stock Price Analysis - User Guide (by Arsh Ahtsham)')
 
-# Load the original image
-image = Image.open("sp.jpg")
-
-# Resize the image
-new_width = 300
-new_height = 200
-resized_image = image.resize((new_width, new_height))
-
-col3.image(resized_image,caption='sp500')
-
-# # Save the resized image
-# resized_image.save("resized_sp.jpg")
-
-# # Display the resized image using st.image
-# st.image("resized_sp.jpg", use_column_width=True)
+st.image("sp.jpg", use_column_width=True)
 
 st.title('Understanding the S&P 500')
 
