@@ -10,11 +10,7 @@ from PIL import Image
 
 st.title('S&P 500 Stock Price Analysis - User Guide (by Arsh Ahtsham)')
 
-egr = Image.open('arshahtsham/CMSE830/Mid_Term_Project/sp.jpg')
-egr= egr.resize((1000, 1000))
-col3.image(egr, caption='Spartans')
-
-st.image("egr", use_column_width=True)
+st.image("https://www.investopedia.com/thmb/ASStR21rMu9-9_nj1x07H83zbUs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/close-up-of-stock-market-data-on-digital-display-1058454392-c48e2501742f4c21ad57c25d6a087bd0.jpg", use_column_width=True)
 
 st.title('Understanding the S&P 500')
 
