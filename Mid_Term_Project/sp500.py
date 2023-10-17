@@ -10,7 +10,11 @@ from PIL import Image
 
 st.title('S&P 500 Stock Price Analysis - User Guide (by Arsh Ahtsham)')
 
-st.image("CMSE830/Mid_Term_Project/sp.jpg", use_column_width=True)
+egr = Image.open('sp.jpg')
+egr= egr.resize((1000, 1000))
+col3.image(egr, caption='Spartans')
+
+# st.image("egr", use_column_width=True)
 
 st.title('Understanding the S&P 500')
 
